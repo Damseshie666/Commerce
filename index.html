@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Code Commerce</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    
+   </head>
+   <body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="codepen">❤️</i>
+                <span>Code</span>
+            </div>
+            <i class="menu" id="btn">🎞️</i>
+        </div>
+        <div class="user">
+            <img src="3.png" alt="me" class="user-img">
+            <div>
+                <p class="bold">Seshie Dorcas</p>
+                <p>Admin</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+              <a href="#">
+                <i class="alt">📊</i>
+                <span class="nav-item">Dashboard</span>
+              </a>
+              <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                  <i class="shopping-bag">🤖</i>
+                  <span class="nav-item">Products</span>
+                </a>
+                <span class="tooltip">Products</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="list-check">📃</i>
+                  <span class="nav-item">Categories</span>
+                </a>
+                <span class="tooltip">Categories</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="food-menu">🔰</i>
+                  <span class="nav-item">Orders</span>
+                </a>
+                <span class="tooltip">Orders</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="body">🧑🏿‍🤝‍🧑🏾</i>
+                  <span class="nav-item">Customers</span>
+                </a>
+                <span class="tooltip">Customers</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="location">🚢</i>
+                  <span class="nav-item">Shipping</span>
+                </a>
+                <span class="tooltip">Shipping</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="cog">⚙️</i>
+                  <span class="nav-item">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="log-out">🪵</i>
+                  <span class="nav-item">Logout</span>
+                </a>
+                <span class="tooltip">Logout</span>
+              </li>
+               </div>
+     <div class="main-content">
+        <div class="container">
+            <h1>Code Commerce</h1>
+            <h1>My Commerce</h1>
+          
+        </div>
+     </div>
+  
+            </body>
+            <script>
+                let btn = document.querySelector('#btn')
+let sidebar = document.querySelector('.sidebar')
+
+btn.onclick = function(){
+    sidebar.classList.toggle('active');
+};
+            </script>
+</html>
